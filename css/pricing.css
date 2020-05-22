@@ -48,6 +48,19 @@
   font-size: 18px;
 }
 
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
 @media only screen and (max-width: 600px) {
   .columns {
     width: 100%;

@@ -1964,13 +1964,6 @@ h1, h2, h3, h4, h5,
   right: 0;
   bottom: 0; }
 
-.logo-image{
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: -6px;
-}
 	
 .loader {
   z-index: 7700;

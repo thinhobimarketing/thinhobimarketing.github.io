@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5,
 }
 .navbar-brand>img {
   height: 100%;
-  padding: 15px; /* firefox bug fix */
+  padding: 0px; /* firefox bug fix */
   width: auto;
 }
 

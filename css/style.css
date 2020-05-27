@@ -291,14 +291,6 @@ h1, h2, h3, h4, h5,
 
 /* Navbar */
 
-.navbar-brand {
-  padding: 0px; /* firefox bug fix */
-}
-.navbar-brand>img {
-  height: 100%;
-  padding: 0px; /* firefox bug fix */
-  width: auto;
-}
 
 .site-navbar {
   margin-bottom: 0px;
@@ -306,7 +298,7 @@ h1, h2, h3, h4, h5,
   position: absolute;
   width: 100%;
   background: #fff; }
-  .site-navbar .site-logo {
+  .site-navbar .navbar-brand {
     position: relative;
     left: 0;
     top: -5px; }

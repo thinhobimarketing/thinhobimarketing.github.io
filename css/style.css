@@ -586,8 +586,7 @@ h1, h2, h3, h4, h5,
   background-size: 120% 200%;
   background-repeat: no-repeat;
   background-position: top;
-  position: relative; 
-  padding-top: 50px;
+  position: relative;
 }
   .site-blocks-cover:after {
     position: absolute;

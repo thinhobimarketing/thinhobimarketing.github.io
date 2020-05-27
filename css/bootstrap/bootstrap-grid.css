@@ -66,7 +66,6 @@ html {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  display: flex;
   padding-right: 15px;
   padding-left: 15px; }
 
@@ -911,7 +910,7 @@ html {
   display: inline-block !important; }
 
 .d-block {
-  display: block !important; }
+  display: flex !important; }
 
 .d-table {
   display: table !important; }

@@ -1,9 +1,3 @@
-<?php
-if ($_POST["message"]) {mail("info@thinhobimarketing.com" , "Form to email message" ,
-$_POST["message"], "From: an@email.address");
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -358,18 +352,18 @@ $_POST["message"], "From: an@email.address");
 
             
 
-            <form action="mailto:info@thinhobimarketing.com" method="post" class="p-5 bg-white" enctype="text/plain">
+            <form action="https://formspree.io/xzbjeoqv" method="POST" class="p-5 bg-white" enctype="text/plain">
               
               <h2 class="h4 text-black mb-5 text-center">Let Us Know What You Think</h2> 
 
               <div class="row form-group">
                 <div class="col-md-6 mb-3 mb-md-0">
                   <label class="text-black" for="fname">First Name</label>
-                  <input type="text" id="fname" class="form-control rounded-0">
+                  <input type="text" id="fname" class="form-control rounded-0" name="First Name">
                 </div>
                 <div class="col-md-6">
                   <label class="text-black" for="lname">Last Name</label>
-                  <input type="text" id="lname" class="form-control rounded-0">
+                  <input type="text" id="lname" class="form-control rounded-0" name="Last Name">
                 </div>
               </div>
 
@@ -377,7 +371,7 @@ $_POST["message"], "From: an@email.address");
                 
                 <div class="col-md-12">
                   <label class="text-black" for="email">Email</label> 
-                  <input type="email" id="email" class="form-control rounded-0">
+                  <input type="email" id="email" class="form-control rounded-0" name="Email">
                 </div>
               </div>
 
@@ -385,7 +379,7 @@ $_POST["message"], "From: an@email.address");
                 
                 <div class="col-md-12">
                   <label class="text-black" for="subject">Subject</label> 
-                  <input type="subject" id="subject" class="form-control rounded-0">
+                  <input type="subject" id="subject" class="form-control rounded-0" name="Subject">
                 </div>
               </div>
 
